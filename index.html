@@ -164,59 +164,59 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <a href="#section1" class="toc-item">
                     <i class="fas fa-rocket"></i>
-                    1. Executive Summary
+                    <strong>1. Executive Summary</strong>
                 </a>
                 <a href="#section2" class="toc-item">
                     <i class="fas fa-chart-line"></i>
-                    2. 현재 상황 분석
+                    <strong>2. 현재 상황 분석</strong>
                 </a>
                 <a href="#section3" class="toc-item">
                     <i class="fas fa-search"></i>
-                    3. 미개척 광고 채널 분석
+                    <strong>3. 미개척 광고 채널 분석</strong>
                 </a>
                 <a href="#section4" class="toc-item">
                     <i class="fas fa-lightbulb"></i>
-                    4. 솔루션: 종합 정보 플랫폼 구축 전략
+                    <strong>4. 솔루션: 종합 정보 플랫폼 구축 전략</strong>
                 </a>
                 <a href="#section5" class="toc-item">
                     <i class="fas fa-trophy"></i>
-                    5. 성공 사례: 코인피클
+                    <strong>5. 성공 사례: 코인피클</strong>
                 </a>
                 <a href="#section6" class="toc-item">
                     <i class="fas fa-star"></i>
-                    6. 종합 플랫폼 구축 시 기대효과
+                    <strong>6. 종합 플랫폼 구축 시 기대효과</strong>
                 </a>
                 <a href="#section7" class="toc-item">
                     <i class="fas fa-cogs"></i>
-                    7. 실행 방안
+                    <strong>7. 실행 방안</strong>
                 </a>
                 <a href="#section8" class="toc-item">
                     <i class="fas fa-balance-scale"></i>
-                    8. 검토 가능한 2가지 옵션
+                    <strong>8. 검토 가능한 2가지 옵션</strong>
                 </a>
                 <a href="#section9" class="toc-item">
                     <i class="fas fa-sitemap"></i>
-                    9. 사이트 전략적 역할 분담
+                    <strong>9. 사이트 전략적 역할 분담</strong>
                 </a>
                 <a href="#section10" class="toc-item">
                     <i class="fas fa-calendar-alt"></i>
-                    10. 참고: 예상 타임라인
+                    <strong>10. 참고: 예상 타임라인</strong>
                 </a>
                 <a href="#section11" class="toc-item">
                     <i class="fas fa-chart-bar"></i>
-                    11. 기대 효과
+                    <strong>11. 기대 효과</strong>
                 </a>
                 <a href="#section12" class="toc-item">
                     <i class="fas fa-question-circle"></i>
-                    12. 왜 이 전략을 검토해볼 가치가 있는가?
+                    <strong>12. 왜 이 전략을 검토해볼 가치가 있는가?</strong>
                 </a>
                 <a href="#section13" class="toc-item">
                     <i class="fas fa-clipboard-check"></i>
-                    13. 추가 검토 필요 사항
+                    <strong>13. 추가 검토 필요 사항</strong>
                 </a>
                 <a href="#section14" class="toc-item">
                     <i class="fas fa-flag-checkered"></i>
-                    14. 결론
+                    <strong>14. 결론</strong>
                 </a>
             </div>
         </div>
@@ -366,27 +366,38 @@
 
             <div class="mb-8">
                 <h3 class="text-2xl font-bold text-dark mb-6">전략 개요</h3>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                    <div class="strategy-box text-center">
+                
+                <!-- 모바일: 세로 배치, PC: 가로 배치 with 중앙 정렬된 화살표 -->
+                <div class="flex flex-col md:flex-row md:items-center md:justify-center gap-4">
+                    <!-- 1단계 -->
+                    <div class="strategy-box text-center flex-shrink-0 md:w-64">
                         <i class="fas fa-building text-3xl text-green-500 mb-3"></i>
                         <h4 class="font-bold text-dark mb-2">[1단계]</h4>
                         <p class="text-dark">종합 정보 플랫폼 구축</p>
                         <p class="text-sm text-gray-600 mt-2">(커뮤니티 + 뉴스 + AI 도구 + 교육 콘텐츠)</p>
                     </div>
-                    <div class="text-center">
+                    
+                    <!-- 화살표 1 -->
+                    <div class="flex flex-col items-center justify-center flex-shrink-0 md:mx-2">
                         <div class="flow-arrow">↓</div>
-                        <p class="text-sm text-gray-600">[광고 채널 확장]</p>
+                        <p class="text-sm text-gray-600 text-center whitespace-nowrap">[광고 채널 확장]</p>
                     </div>
-                    <div class="strategy-box text-center">
+                    
+                    <!-- 2단계 -->
+                    <div class="strategy-box text-center flex-shrink-0 md:w-64">
                         <i class="fas fa-users text-3xl text-blue-500 mb-3"></i>
                         <h4 class="font-bold text-dark mb-2">[2단계]</h4>
                         <p class="text-dark">신규 타겟 유입</p>
                         <p class="text-sm text-gray-600 mt-2">(국내 거래소만 사용, 주식 투자자, 앱테크족 등)</p>
                     </div>
-                    <div class="text-center">
+                    
+                    <!-- 화살표 2 -->
+                    <div class="flex items-center justify-center flex-shrink-0 md:mx-2">
                         <div class="flow-arrow">↓</div>
                     </div>
-                    <div class="strategy-box text-center">
+                    
+                    <!-- 3단계 -->
+                    <div class="strategy-box text-center flex-shrink-0 md:w-64">
                         <i class="fas fa-exchange-alt text-3xl text-purple-500 mb-3"></i>
                         <h4 class="font-bold text-dark mb-2">[3단계]</h4>
                         <p class="text-dark">자연스러운 전환</p>
@@ -1062,4 +1073,3 @@
     </div>
 </body>
 </html>
-
